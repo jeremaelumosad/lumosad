@@ -1,0 +1,524 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About AsweetZ Cakes & Partykit</title>
+    <style>
+      
+      body {
+    background: #e8e4c9;
+    margin: 0;
+    color: #000000;
+    box-sizing: border-box;
+    text-align: justify;
+  }
+
+  .header {
+  width: 100%;
+  height: 100vh;
+  background: black;
+  }
+
+  video {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  transition: all 0.5s ease;
+  }
+
+  .text-container {
+    width: 100%;
+    display: block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: all 0 s ease;
+  }
+
+  .title {
+  position: relative;
+  color: #000000;
+  text-align: center;
+  display: block;
+  max-width: 900px;
+  margin: 0 auto;
+  }
+
+  h1 {
+    font-weight: bold;
+    font-size: 96px;
+    line-height: 1;
+    margin: 0;
+    color:#fdfd96;
+  }
+
+  a {
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.2rem;
+    padding: 12px 30px;
+    border-radius: 50px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0.1);
+    border: 1px solid #000000;
+    background: #fdfd96;
+    color: #000000;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+
+@media only screen and (max-width: 768px) {
+
+  video {   
+    height: 80%;
+    transition: all 2.5s ease;
+  }
+
+  .text-container {
+    text-align: end;
+    position: absolute;
+    top: 0;
+    transform: none;
+    transition: all 2.5s ease;
+  }
+
+
+
+  .title {
+    max-width: 100%;
+    padding: 20px;
+    text-align: left;
+  }
+  
+  h1 {
+    font-size: 48px;
+    line-height: 1;
+
+  }
+ 
+
+
+  
+
+}
+
+ 
+
+
+.navbar {
+    background-color: #ff9999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60;
+    padding: 10px 20px;
+    position: sticky; 
+    top: 0; 
+    z-index: 100; 
+}
+
+.logo a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 24px;
+    font-weight: none;
+    
+  
+}
+.nav-links a {
+  font-size:15px;
+
+}
+
+.nav-links {
+  list-style: none;
+
+}
+
+.nav-links li {
+  display: inline;
+  margin: 0 15px;
+
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+}
+
+
+.hero {
+    background-image: url('header.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #fff;
+    padding: 100px 0;
+}
+
+
+
+.menu {
+    background-color: #f9f9f9;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.menu-item {
+    margin: 20px;
+    padding: 20px;
+    background-color: #000000;
+    border: none;
+    border-radius: 5px;
+}
+
+
+
+.navbar.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffffe5;
+    z-index: 100; 
+    transition: top 0.3s;
+}
+
+
+
+.contact {
+  background-color: #f9f9f9;
+  padding: 60px 0;
+  text-align: center;
+  background-image: url('download.jpg');
+  width:100%;
+}
+
+.footer {
+  background-color: #ffc1cc;
+  color: #000000;
+  text-align: center;
+  padding: 20px 0;
+  width: 100%;
+}
+
+.hero {
+  background-image: url('header.jpg');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: #000000;
+  padding: 100px 0;
+}
+.logo {
+  font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.2rem;
+    padding: 12px 30px;
+    border-radius: 50px;
+    border: 3px solid #000000;
+    background: #ffc1cc;
+    color: #000000;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+h2{
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: solid;
+  font-style: normal;
+  font-family: cursive;
+  
+  
+}
+
+  
+}
+
+.table {
+  margin: 0; 
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  background: #f6ead1;
+  overflow: auto;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 5px #feffe3,0 0 25px #feffe3,0 0 50px #feffe3,0 0 100px #feffe3,0 0 200px#feffe3;
+
+}
+.product {
+  margin: auto;
+  border: none;
+  float: left;
+  width: 390px;
+  align-items: center;
+
+}
+.product img {
+  width: none;
+  height: none;
+  display: flow-root;
+  margin: auto;
+  transition: all 0.2s ease-out;
+
+
+}
+
+.product h3 {
+  padding: 10px;
+  text-align: center;
+
+}
+
+.product p {
+  padding: 5px;
+  text-align: center;
+
+}
+.product button {
+  padding: 5px 15px;
+  align-content: center;
+  color: #000000;
+  background: #fdfd96;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  display: block;
+  margin: auto;
+  margin-bottom: 80px;
+  font-weight: 500;
+  box-sizing: unset;
+  box-shadow: 0px 8px 15pxrgba(0, 0, 0.1);
+  cursor: pointer;
+  outline: none;
+  
+}  
+
+button:active {
+transform: scale(0.96);
+
+}  
+    -webkit-text-size-adjust: 100%;
+    </html> 
+  </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <a href="#home">  AsweetZ Cakes</a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="bakery.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="About us.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header>
+       
+        <img src="HD coffee.jpg" autoplay muted playsinline loop></img>
+                
+                <div class="text-container">
+                    <div class="title">
+                        
+                       
+        
+                    </div>
+                   </div>
+              </div>
+              
+              
+              
+                  <div class="Product">
+                  <div class="container">
+                      
+                   
+    </header>
+  </style>
+</head>
+<body>
+
+ 
+		  
+ 
+</br></br></br></br>
+	  <h2><p><div class="text">Choose the Cakes and Cupcakes you love sweetie!</h2></p>
+    <div class="container1"></div>
+
+<table>
+</br></br></br></br></br>
+
+<div class="container">
+
+  <div class="product">
+    <img src="Red-Velvet.jpg" width="280" height="230"></img>
+    <h2>Red Velvet</h2>
+    <p> Price: 1500</p>
+   <button onclick="addToCart('Red Velvet', 30)">Buy</button>
+</div>
+
+<div class="product">
+    <img src="Vanilla.jpg" width="280" height="230"></img>
+    <h2>Vanilla Cupcakes</h2>
+    <p> Price:2000</p>
+    <button onclick="addToCart('Vanilla', 47.50)">Buy</button>
+</div>
+
+<div class="product">
+    <img src="Funfetti.jpg" width="280" height="230"></img>
+    <h2>Funfetti</h2>
+    <p> Price: 2100</p>
+    <button onclick="addToCart('Funfetti', 19)">Buy</button>
+</div>
+
+<div class="product">
+    <img src="Raspberry-Cake.jpg" width="280" height="250"></img>
+    <h2>Raspberry Cake</h2>
+    <p> Price: 2100</p>
+    <button onclick="addToCart('Raspberry Cake', 30)">Buy</button>
+</div>
+
+<div class="product">
+    <img src="Caramel-Cake.jpg"  width="280" height="250"></img>
+    <h2>Caramel Cake</h2>
+    <p> Price: 950</p>
+  <button onclick="addToCart('Caramel Cake', 30)">Buy</button>
+</div>
+
+<div class="product">
+    <img src="Cherry-Cake.jpg" width="280" height="250"></img>
+    <h2>Cherry Cake</h2>
+    <p> Price:950</p>
+    <button onclick="addToCart('Cherry Cake', 30)">Buy</button>
+</div>
+
+<div class="product">
+    <img src="Key-Lime.jpg" width="280" height="250"></img>
+    <h2>Key Lime</h2>
+    <p> Price:1000</p>
+    <button onclick="addToCart('Key Lime', 30)">Buy</button>
+</div>
+
+<div class="product">
+    <img src="SMores-Cake.jpg" width="280" height="250"></img>
+    <h2>S'Mores Cake</h2>
+    <p> Price:3000</p>
+    <button onclick="addToCart('S'Mores Cake', 30)">Buy</button>
+</div>
+
+
+<div class="product">
+    <img src="Midnight-Delight.jpg"  width="280" height="250"></img>
+    <h2>Midnight Delight</h2>
+    <p> Price: 1500</p>
+    <button onclick="addToCart('Midnight Delight', 20)">Buy</button>
+</div>
+
+<div class="product">
+    <img src="Gingerbread-Cake.jpg" width="280" height="250"></img>
+    <h2>Gingerbread Cake</h2>
+    <p> Price: 1300</p>
+    <button onclick="addToCart('Gingerbread Cake', 30)">Buy</button>
+</div>
+
+<div class="product">
+    <img src="Wedding-Cakes.jpg" width="280" height="250"></img>
+    <h2>Wedding Cake</h2>
+    <p> Price: 5000</p>
+    <button onclick="addToCart('Wedding Cake', 😎">Buy</button>
+</div>
+
+<div class="product">
+    <img src="Cake Sampler.jpg" width="280" height="250"></img>
+    <h2>Cake Sampler</h2>
+    <p> Price:1000</p>
+    <button onclick="addToCart('Cake Sampler', 13.75)">Buy</button>
+</div> 
+ 
+
+<div class="product">
+    <img src="Strawberry-Shortcake.jpg"  width="280" height="250"></img>
+    <h2>Strawberry Shortcake</h2>
+    <p> Price:2000</p>
+    <button onclick="addToCart('Strawberry Shortcake', 20)">Buy</button>
+</div>
+
+<div class="product">
+    <img src="Neapolitan-Cake.jpg"width="280" height="250"></img>
+    <h2>Neapolitan Cake</h2>
+    <p> Price:1000</p>
+    <button onclick="addToCart('Neapolitan Cake', 30)">Buy</button>
+</div>
+
+<div class="product">
+    <img src="Mocha-Cake.jpg" width="280" height="250"></img>
+    <h2>Mocha Cake</h2>
+    <p> Price: 1200</p>
+    <button onclick="addToCart('Mocha Cake, 30)">Buy</button>
+</div>
+
+<div class="product">
+    <img src="Dark-Chocolate-Cake.jpg"width="280" height="250"></img>
+    <h2>Dark Chocolate Cake </h2>
+    <p> Price:1400</p>
+    <button onclick="addToCart('Dark Chocolate Cake', 30)">Buy</button>
+</div>
+
+<div class="product">
+    <img src="Red Velvet Cupcake.jpg"width="280" height="250"></img>
+    <h2>Red Velvet Cupcake</h2>
+    <p> Price:950</p>
+    <button onclick="addToCart('Red Velvet Cupcake', 30)">Buy</button>
+</div>
+
+<div class="product">
+    <img src="Funfetti Cupcake.jpg" width="280" height="250"></img>
+    <h2>Funfetti Cupcake</h2>
+    <p> Price:950</p>
+    <button onclick="addToCart('Funfetti Cupcake', 30)">Buy</button>
+</div>
+
+
+</table>
+</body>
+</html>
+
+
+    <div class="contact">
+      <ul class="contact-links">
+          <li><strong>Facebook:</strong> <a href="https://web.facebook.com/zhyjanzeke20zhyjanzeke20ww?_rdc=1&_rdr" target="_blank" attribute><i class="fa-brands fa-facebook">AsweetZ Cakes & Partykits!</a></li></i>
+          <br><br>
+          
+      </ul>
+  </div>
+
+        <footer class="footer">
+          <p>&copy; 2023 AsweetZ Cakes & Partykits!. All rights reserved.</p>
+        </footer>
+        </footer>
+ </section>
+  <script>
+        let prevScrollPos = window.pageYOffset;
+
+        window.onscroll = function () {
+            const currentScrollPos = window.pageYOffset;
+            const navbar = document.querySelector(".navbar");
+
+            if (prevScrollPos > currentScrollPos) {
+                navbar.style.top = "0";
+                navbar.classList.remove("sticky");
+            } else {
+                navbar.style.top = "0px"; 
+                navbar.classList.add("sticky");
+            }
+
+            prevScrollPos = currentScrollPos;
+        }
+    </script>
+</body>
+</html>
